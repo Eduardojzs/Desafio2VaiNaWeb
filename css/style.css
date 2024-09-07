@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    font-family: "Kodchasan", sans-serif;
+   
+    
+    background-color:  #EFEEF3;
+      
+}
+
+
+.cabecalho{
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFEEF3;
+    height: 50px;
+}
+
+.cabecalho img{
+    width: 100px;
+}
+
+.nav_bar ul{
+    list-style: none;
+    display: flex;
+    gap: 4em;
+    
+}
+
+.nav_bar a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+section img{
+    width: 100%;
+}
+
+.img_flex img{
+    width: 250px;
+    
+}
+main{
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.conteudo h2{
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+}
+.conteudo p
+{
+    
+    
+   width: 400px;
+   font-size: 12px;
+   margin-top: 20px;
+    
+}
+
+   
+
+
+.primeiro_conteudo{
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    
+    justify-content: space-around;
+}
+
+
+.img_flex2{
+    
+    display: flex;
+    gap: 2em;
+    margin-top: 5em;
+    
+}
+
+.img_flex2 img{
+    width: 100%;
+}
+
+.camentario p{
+    width: 250px;
+   
+}
+
+.segundo_conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
