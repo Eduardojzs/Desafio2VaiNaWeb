@@ -8,104 +8,103 @@
 body{
     
     font-family: "Kodchasan", sans-serif;
-   
-    
     background-color:  #EFEEF3;
+    
       
 }
 
 
 .cabecalho{
     display: flex;
-    gap: 5em;
     align-items: center;
     justify-content: space-around;
     background-color: #EFEEF3;
-    height: 50px;
-}
-
-.cabecalho img{
-    width: 100px;
+    padding: 0.6em 0;
+    
+    
 }
 
 .nav_bar ul{
     list-style: none;
     display: flex;
-    gap: 4em;
-    
+    gap: 5em;
 }
 
 .nav_bar a{
-    color: #000;
     text-decoration: none;
+    color:#000;
 
 }
 
-section img{
-    width: 100%;
+.img img{
+    width:100%;
 }
-
-.img_flex img{
-    width: 250px;
-    
-}
-main{
-    width: 950px;
-    margin: 0 auto;
-    margin-top: 50px;
-    
-    
-    
-}
-
-.conteudo h2{
-    width: 350px;
-    font-size: 20px;
-    text-align: center;
-}
-.conteudo p
-{
-    
-    
-   width: 400px;
-   font-size: 12px;
-   margin-top: 20px;
-    
-}
-
-   
-
 
 .primeiro_conteudo{
     display: flex;
     align-items: center;
-    gap: 6em;
-    
     justify-content: space-around;
+
 }
 
-
-.img_flex2{
-    
-    display: flex;
-    gap: 2em;
-    margin-top: 5em;
-    
+.primeiro_conteudo p {
+    width: 400px;
+    border: 1px solid red;
 }
 
-.img_flex2 img{
-    width: 100%;
-}
-
-.camentario p{
-    width: 250px;
-   
-}
 
 .segundo_conteudo{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 
+.img_flex2 img {
+    padding: 2em;
+    border: 1px solid red;
+    
+}
+
+
+@media screen and (max-width: 500px){
+    .img{
+        display: none;
+    }
+
+    .cabecalho{
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .nav_bar ul{
+        flex-direction: column;
+        margin-top: 2em;
+        align-items:center ;
+    }
+
+    .primeiro_conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .primeiro_conteudo img{
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    .conteudo h2,
+    .conteudo p{
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+
+    .segundo_conteudo{
+        flex-direction: column;
+    }
+
+    .img_flex2  {
+       text-align: center;
+       margin-top: 2em;
+    }
+}
